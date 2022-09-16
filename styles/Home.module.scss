@@ -1,0 +1,58 @@
+$primary: #D61C4E;
+$bg-dark: #293462;
+
+@media (min-width: 400px) and (prefers-color-scheme: dark) {
+  // der Erste Eindruck, den man in einer Website bekommt
+  .erster_eindruck {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px;
+    background-color: $bg-dark;
+    color: $primary;
+  }
+  .erster_eindruck>p {
+    color: $primary;
+  }
+  .AboutOneLine {
+    margin: 0;
+  }
+  .linkToAbout {
+    color: #1CD6CE;
+    transition: color 0.4s ease-in;
+    text-decoration: underline;
+  }
+  .trigger {
+    margin: 0;
+  }
+  .TextContainer {
+    position: absolute;
+    cursor: default;
+    left: 10%;
+  }
+  .linkToAbout:hover {
+    cursor: pointer;
+    color: #168f89;
+    transition: color 0.4s ease-in;
+  }
+  .LinksContainer {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+  }
+  .Links {
+    color: #1CD6CE;
+    text-decoration: none;
+    margin-left: 10px;
+    transition: color 0.5s ease-in-out;
+  }
+  .Links:hover {
+    color: #168f89;
+    transition: color 0.5s ease-in-out;
+  }
+  .Hi {
+    margin: 0;
+  }
+}

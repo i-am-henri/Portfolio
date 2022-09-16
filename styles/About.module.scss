@@ -1,0 +1,36 @@
+$primary: #D61C4E;
+$bg-dark: #293462;
+.about {
+    position: absolute;
+    left: 10%;
+    width: 80%;
+    color: $primary;
+}
+.aboutContainer {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-color: $bg-dark;
+}
+.h2, .p {
+    margin: 0px;
+}
+.back {
+    position: absolute;
+    left: 10%;
+    cursor: pointer;
+    color: white;
+    top: 10%;
+}
+@media (min-width: 600px) {
+    .about {
+        width: 50%;
+    }
+    
+}
+@media (max-width: 500px) {
+    .back {
+        left: 5%;
+        top: 5%;
+    }    
+}

@@ -1,0 +1,56 @@
+$primary: #D61C4E;
+$bg-dark: #293462;
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.p {
+    margin: 0px;;
+}
+.H2 {
+    margin: 0px;
+}
+.Link {
+    color: #1CD6CE;
+    text-decoration: underline;
+    transition: color 04s ease-in;
+}
+.Link:hover {
+    color: #168f89;
+    transition: color 04s ease-in;
+}
+
+.backIcon {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+.back {
+    position: absolute;
+    left: 10%;
+    cursor: pointer;
+    height: 10%;
+    width: 10%;
+    color: white;
+    top: 10%;
+}
+@media (min-width: 600px) {
+    .text {
+        width: 50%;
+        position: absolute;
+        left: 10%;
+    }
+    
+}
+@media (max-width: 400px) {
+    .back {
+        position: absolute;
+        left: 5%;
+        cursor: pointer;
+        color: white;
+        top: 5%;
+    }
+}

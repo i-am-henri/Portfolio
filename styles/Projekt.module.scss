@@ -1,0 +1,19 @@
+.back      {
+    cursor: pointer;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    color: white;
+}
+@media (max-width: 400px) {
+    .back {
+        cursor: pointer;
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        color: white; 
+    }
+}
+.Projekt {
+    flex-direction: column;
+}
