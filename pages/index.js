@@ -15,7 +15,7 @@ export default function Home() {
           Portfolio von Henri
         </title>
         <meta name="keywords" content="Portfolio, modern, Henri, Web-Development, programmieren, App-Developer, jung, cool, modern, Modernes Design, schöne Website, " />
-        <meta name="description" content="Hi, ich bin Henri und das ist mein Portfolio. Ich habe das alles in NextJs geschrieben." />
+        <meta name="description" content="Hi, ich bin Henri und das ist mein Portfolio." />
       </Head>
       {/* Der erste Eindruck */}
       <motion.div className={styles.erster_eindruck}>
@@ -26,7 +26,7 @@ export default function Home() {
         whileHover={{y: -10}}
         className={styles.TextContainer}>
           <h2 className={styles.Hi}>Hi, ...</h2>
-          <p className={styles.AboutOneLine}>Ich bin Henri, 12 Jahre alt und ein Web- und Appdeveloper.</p>
+          <p className={styles.AboutOneLine}>Ich bin Henri, 13 Jahre alt und ein Web- und Appdeveloper.</p>
           <p className={styles.trigger}>Meine ganze Geschichte findest du <Link href="/about"><a className={styles.linkToAbout}>hier.</a></Link></p>
         </motion.div>
         {/* Die weiteren Links */}
