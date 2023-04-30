@@ -2,7 +2,7 @@
 
 export default function handler(req, res) {
   if (req.method == "POST") {
-    res.send({state: "Accepted")
+    res.send({state: "Accepted"})
   } else if (req.method == "GET") {
     res.send({state: "not Accepted"})
   }
